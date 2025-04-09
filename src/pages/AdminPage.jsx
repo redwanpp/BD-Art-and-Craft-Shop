@@ -1,5 +1,6 @@
 import { BarChart, PlusCircle, ShoppingBasket } from 'lucide-react';
 import React, { useEffect, useState } from 'react'
+// eslint-disable-next-line no-unused-vars
 import {motion} from 'framer-motion';
 import CreateProductForm from '../components/CreateProductForm';
 import ProductsLists from '../components/ProductsLists';

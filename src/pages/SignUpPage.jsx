@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import {Link} from 'react-router-dom'
 import {UserPlus, Mail, Lock, User, ArrowRight, Loader } from 'lucide-react'
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
 import { useUserStore } from '../stores/useUserStore'
 

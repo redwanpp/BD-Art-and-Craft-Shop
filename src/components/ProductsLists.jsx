@@ -1,6 +1,7 @@
 import React from 'react'
 import { Trash, Star} from 'lucide-react'
 import { useProductStore } from '../stores/useProductStore';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 
 const ProductsLists = () => {

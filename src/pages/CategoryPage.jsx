@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useProductStore } from '../stores/useProductStore'
 import { useParams } from 'react-router-dom'
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
 import Product from '../../../backend/models/product.model'
 import ProductCard from '../components/ProductCard'

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { PlusCircle, Upload, Loader } from 'lucide-react';
 import { useProductStore } from '../stores/useProductStore';
