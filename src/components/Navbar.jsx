@@ -26,7 +26,7 @@ const Navbar = () => {
               Home
             </Link>
             {user && (
-              <Link to="/cart" className="relative group">
+              <Link to="/cart" className={`relative group ${isAdmin && 'hidden'}`}>
                 <ShoppingCart
                   className="inline-block mr-1 text-gray-300 hover:text-cyan-400 transation duration-300 ease-in-out"
                   size={20}
