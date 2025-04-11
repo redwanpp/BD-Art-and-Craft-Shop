@@ -16,9 +16,9 @@ const HomePage = () => {
 
   const { fetchFeaturedProducts, products, isLoading } = useProductStore();
 
-  useEffect(() => {
-    fetchFeaturedProducts();
-  }, [fetchFeaturedProducts]);
+  // useEffect(() => {
+  //   fetchFeaturedProducts();
+  // }, [fetchFeaturedProducts]);
 
   return (
     <div className="relative min-h-screen text-white overflow-hidden">
@@ -35,9 +35,9 @@ const HomePage = () => {
             <CategoryItem category={category} key={category.name} />
           ))}
         </div>
-        {!isLoading && products.length > 0 && (
+        {/* {!isLoading && products.length > 0 && (
           <FeaturedProducts featuredProducts={products} />
-        )}
+        )} */}
       </div>
     </div>
   );
